@@ -10,6 +10,7 @@ COPY . .
 
 RUN npm run build
 
+# On remplace par 40213 pour le compose.yaml 
 EXPOSE 4173
 
 CMD ["npm", "run", "preview"]

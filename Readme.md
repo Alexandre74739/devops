@@ -6,4 +6,7 @@
 - docker run -dp 1994:3000 api -> lance l'api en local
 - docker ps -> vérifie que le container tourne
 
-- 
+# Commandes et instructions partie III
+
+- docker compose up -d
+
