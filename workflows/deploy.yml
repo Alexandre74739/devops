@@ -12,5 +12,5 @@ jobs:
           username: alexandre74739
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - run: docker build -t alexandre74739/devops/api .
-      - run: docker push alexandre74739/devops/api
+      - run: docker build -t alexandre74739/devops-api .
+      - run: docker push alexandre74739/devops-api
